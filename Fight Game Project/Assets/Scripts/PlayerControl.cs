@@ -9,11 +9,15 @@ public class PlayerControl : MonoBehaviour
 
     // 이동 속도 설정
     float moveSpeed = 5.0f;
+    CharacterController cc;
 
+    // 중력 크기
+    public float gravity = -10.0f;
+    float yVelocity = 0;
 
     void Start()
     {
-        
+        cc = transform.GetComponent<CharacterController>();
     }
 
     void Update()
@@ -32,7 +36,22 @@ public class PlayerControl : MonoBehaviour
         // 방향 벡터를 카메라의 방향을 기준으로 재설정한다.
         dir = Camera.main.transform.TransformDirection(dir);
 
+        // 중력 값을 적용한다.
+        yVelocity += gravity * Time.deltaTime;
+        dir.y = yVelocity;
+
         // P= P0 * vt
-        transform.position += moveSpeed * dir * Time.deltaTime;
+        // transform.position += moveSpeed * dir * Time.deltaTime;
+        cc.Move(dir * moveSpeed * Time.deltaTime);
+
+        // 대쉬
+        if (Input.GetButtonDown("Fire3"))
+        {
+            moveSpeed = 30.0f;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            moveSpeed = 5.0f;
+        }
     }
 }

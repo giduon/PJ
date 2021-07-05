@@ -25,7 +25,7 @@ public class UiControl : MonoBehaviour
             GameObject.Find("BtnUp").GetComponent<Image>().color = Color.blue;
             
             // ÁÂÅ¬¸¯À» ÇÏ¸é »¡°£»öÀ¸·Î ¹Ù²ï´Ù.
-            if(Input.GetMouseButtonDown(0))
+            if(Input.GetMouseButton(0))
 			{
                 GameObject.Find("BtnUp").GetComponent<Image>().color = Color.red;
             }
@@ -38,7 +38,7 @@ public class UiControl : MonoBehaviour
         {
             GameObject.Find("BtnL").GetComponent<Image>().color = Color.blue;
             // ÁÂÅ¬¸¯À» ÇÏ¸é »¡°£»öÀ¸·Î ¹Ù²ï´Ù.
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButton(0))
             {
                 GameObject.Find("BtnL").GetComponent<Image>().color = Color.red;
             }
@@ -51,7 +51,7 @@ public class UiControl : MonoBehaviour
         {
             GameObject.Find("BtnR").GetComponent<Image>().color = Color.blue;
             // ÁÂÅ¬¸¯À» ÇÏ¸é »¡°£»öÀ¸·Î ¹Ù²ï´Ù.
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButton(0))
             {
                 GameObject.Find("BtnR").GetComponent<Image>().color = Color.red;
             }
