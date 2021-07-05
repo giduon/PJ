@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "C:/Users/giduo/OneDrive/\uBC14\uD0D5 \uD654\uBA74/git/Fight Game
+    m_FilePath: "C:/Users/giduo/OneDrive/\uBC14\uD0D5 \uD654\uBA74/git/PJ/Fight Game
       Project/Packages/manifest.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
@@ -9,7 +9,7 @@ m_ProjectFiles:
       ticks: 637607948685194645
     m_Hash: 2971873679
   m_LockFileStatus:
-    m_FilePath: "C:/Users/giduo/OneDrive/\uBC14\uD0D5 \uD654\uBA74/git/Fight Game
+    m_FilePath: "C:/Users/giduo/OneDrive/\uBC14\uD0D5 \uD654\uBA74/git/PJ/Fight Game
       Project/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
@@ -78,7 +78,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.5
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.cinemachine@2.6.5"
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
@@ -212,7 +212,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.collab-proxy@1.3.9"
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
@@ -312,7 +312,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.ide.rider@2.0.7"
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
@@ -420,7 +420,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.7"
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
@@ -506,7 +506,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.ide.vscode@1.2.3"
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
@@ -576,7 +576,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.test-framework@1.1.24"
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
@@ -669,7 +669,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.textmeshpro@3.0.4"
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
@@ -829,7 +829,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.7
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.timeline@1.4.7"
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
@@ -2784,7 +2784,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\Fight
+      resolvedPath: "C:\\Users\\giduo\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\git\\PJ\\Fight
         Game Project\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
@@ -2843,6 +2843,6 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: "C:/Users/giduo/OneDrive/\uBC14\uD0D5 \uD654\uBA74/git/Fight Game
+m_ProjectPath: "C:/Users/giduo/OneDrive/\uBC14\uD0D5 \uD654\uBA74/git/PJ/Fight Game
   Project/Packages"
 m_EditorVersion: 2020.3.8f1 (507919d4fff5)

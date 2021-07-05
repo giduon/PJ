@@ -16,7 +16,9 @@ public class Rotate : MonoBehaviour
 
     void Start()
     {
-
+        Vector3 originRot = transform.eulerAngles;
+        rotX = originRot.y;
+        rotY = -originRot.x;
     }
 
     void Update()
