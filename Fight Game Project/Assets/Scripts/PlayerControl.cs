@@ -11,6 +11,9 @@ public class PlayerControl : MonoBehaviour
     float moveSpeed = 5.0f;
     CharacterController cc;
 
+    bool isDash = false;
+   
+
     // 중력 크기
     public float gravity = -10.0f;
     float yVelocity = 0;
@@ -22,6 +25,10 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
+        //대쉬
+        dash();
+
+
         // 1. 키 입력을 받는다
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
@@ -44,14 +51,20 @@ public class PlayerControl : MonoBehaviour
         // transform.position += moveSpeed * dir * Time.deltaTime;
         cc.Move(dir * moveSpeed * Time.deltaTime);
 
-        // 대쉬
-        if (Input.GetButtonDown("Fire3"))
-        {
-            moveSpeed = 30.0f;
-        }
-        else if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            moveSpeed = 5.0f;
-        }
+        // 대쉬를 구현하고 싶다.
+        // leftshift를 눌렀을 때 움직이고 있는 방향으로 순간 더 빠르게 이동한 후 제 속도로 돌아오고 싶다. 
+
+        void dash()
+		{
+            if (Input.GetButtonDown("Fire3") && isDash == false)
+            {
+                moveSpeed = 20.0f;
+                print("a");
+                isDash = true;
+            }
+            
+            
+		}
+      
     }
 }
